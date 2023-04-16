@@ -1,5 +1,4 @@
-import { Head } from "$fresh/runtime.ts";
-import { getPost, getPosts, Post } from "@/utils/posts.ts";
+import { getPosts, Post } from "@/utils/posts.ts";
 import { Handlers, PageProps } from "$fresh/server.ts";
 
 export const handler: Handlers<Post[]> = {
